@@ -12,23 +12,23 @@
  <div class="calc">
 
   <div class="output">
-  	<p id="level">Уровень:1</p>
-  	<p id="info">ЦЕЛЬ:<input class="goal" type="text" value = "2" disabled>
-  	ШАГИ:<input class="moves" type="text" value = "2" disabled></p>
-   <p><input class="final-result" type="text" value = "0" disabled></p>
+  	<p id="level">Уровень:0</p>
+  	<p id="info">ЦЕЛЬ:<input class="goal" type="text" value = "999" disabled>
+  	ШАГИ:<input class="moves" type="text" value = "9" disabled></p>
+   <p><input class="final-result" type="text" value = "ПОГНАЛИ?" disabled></p>
   </div>
 
   <div class="buttons">
    <table>
     <tr>
-     <td class="clr" onclick="restart()">CLR</td>
+     <td class = "empty"></td>
      <td class = "empty"></td>
      <td class = "empty"></td>
     </tr>
     <tr>
      <td class = "empty"></td>
+     <td class = "go"><a href="levels/level_1.html">GO</a></td>
      <td class = "empty"></td>
-     <td onclick="input('+1')">+1</td>
     </tr>
     <tr>
      <td class = "empty"></td>
@@ -41,5 +41,6 @@
  </div>
 
  <script src="js/script.js"></script>
+
 </body>
 </html>
